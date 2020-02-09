@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "demo": "vue-cli-service serve --mode demo --port 3000",
+    "staging": "vue-cli-service serve --mode staging --port 4000",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
